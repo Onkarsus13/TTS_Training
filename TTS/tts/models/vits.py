@@ -258,7 +258,7 @@ class VitsDataset(TTSDataset):
         super().__init__(*args, **kwargs)
         self.pad_id = self.tokenizer.characters.pad_id
         self.model_args = model_args
-        self.eng_p = Phonemizer.from_checkpoint('/root/Documents/Audio-Encoder-Pretraining-main/voice_coder/TTS_Custom/TTS/tts/utils/text/DPsaarthi/latest_model.pt')
+        self.eng_p = None
 
     def __getitem__(self, idx):
         item = self.samples[idx]

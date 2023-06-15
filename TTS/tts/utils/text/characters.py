@@ -246,6 +246,9 @@ class BaseCharacters:
 
     def _create_vocab(self):
         _vocab = self._characters.split("_")
+        if len(_vocab) < 10:
+            _vocab = list(self._characters)
+            
         print("vocab is ",_vocab)
         if self.is_unique:
             _vocab = set(_vocab)

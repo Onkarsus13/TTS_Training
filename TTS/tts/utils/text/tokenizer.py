@@ -117,6 +117,9 @@ class TTSTokenizer:
                     t_list.append(j)
                 t_list.append(' ')
             text = t_list
+        else:
+            text = text.replace('।', '.')
+            text = list(text)
 
 
 
