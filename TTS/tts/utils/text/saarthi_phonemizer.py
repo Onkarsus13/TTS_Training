@@ -1315,13 +1315,13 @@ def get_phonim(text, lang, tp, eng_p):
 
 
 #indian english lexicon
-ieLex=pd.read_csv('/root/Documents/phonem_inference/TTS_Custom/TTS/tts/utils/text/indian_english_core_lexicon.csv')
-ieLexHeads=ieLex['WordHead'].tolist()
-ieMapped=ieLex['SaarthiASCII'].tolist()
-#odia lexicon
-odiaLex=pd.read_csv('/root/Documents/phonem_inference/TTS_Custom/TTS/tts/utils/text/odia_tts_set.csv')
-odiaLexHeads=odiaLex['WordHead'].tolist()
-odiaMapped=odiaLex['IPA'].tolist()
+# ieLex=pd.read_csv('/root/Documents/phonem_inference/TTS_Custom/TTS/tts/utils/text/indian_english_core_lexicon.csv')
+# ieLexHeads=ieLex['WordHead'].tolist()
+# ieMapped=ieLex['SaarthiASCII'].tolist()
+# #odia lexicon
+# odiaLex=pd.read_csv('/root/Documents/phonem_inference/TTS_Custom/TTS/tts/utils/text/odia_tts_set.csv')
+# odiaLexHeads=odiaLex['WordHead'].tolist()
+# odiaMapped=odiaLex['IPA'].tolist()
 
 lang_dict = {
     "bn":'bangali',
