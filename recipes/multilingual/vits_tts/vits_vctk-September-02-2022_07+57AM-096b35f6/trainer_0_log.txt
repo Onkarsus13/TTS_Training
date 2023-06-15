@@ -1,0 +1,8 @@
+ > Using CUDA: True
+ > Number of GPUs: 1
+
+ > Model has 82244225 parameters
+
+[4m[1m > EPOCH: 0/1000[0m
+ --> /root/Documents/Audio-Encoder-Pretraining-main/voice_coder/TTS/recipes/multilingual/vits_tts/vits_vctk-September-02-2022_07+57AM-096b35f6
+ ! Run is kept in /root/Documents/Audio-Encoder-Pretraining-main/voice_coder/TTS/recipes/multilingual/vits_tts/vits_vctk-September-02-2022_07+57AM-096b35f6
