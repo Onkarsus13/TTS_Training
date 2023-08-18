@@ -1,7 +1,7 @@
 
 
-TTS is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality.
-TTS comes with pretrained models, tools for measuring dataset quality and already used in **20+ languages** for products and research projects.
+TTS is a library for advanced Text-to-Speech generation. It's built on the latest research, and was designed to achieve the best trade-off between ease-of-training, speed, and quality.
+TTS comes with pre-trained models, and tools for measuring dataset quality and is already used in **20+ languages** for products and research projects.
 
 
 - Efficient, flexible, lightweight but feature complete `Trainer API`.
@@ -16,9 +16,9 @@ TTS comes with pretrained models, tools for measuring dataset quality and alread
 - VITS: [paper](https://arxiv.org/pdf/2106.06103)
 
 ## Install TTS
-TTS is tested on Ubuntu 18.04 with **python >= 3.7, < 3.11.**.
+TTS is tested on Ubuntu 20.04 with **python >= 3.7, < 3.11.**.
 
-If you plan to code or train models, clone 🐸TTS and install it locally.
+If you plan to code or train models, clone TTS and install it locally.
 
 ```
 git clone https://github.com/coqui-ai/TTS
